@@ -2,8 +2,7 @@ name: Work 1 Dorx
 on: [push]
 jobs:
     build:
-        runs-up: ubuntu-latest
+        runs-on: ubuntu-latest
         steps:
         - name: Print Something
           run: echo "Hola Pitaya!"
-          
